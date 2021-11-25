@@ -1,13 +1,13 @@
 num_max = 100
  def FizzBuzz(num)
     if num % 3 == 0 && num % 5 == 0
-        puts "FizzBuzz"
+        return "FizzBuzz"
     elsif num % 5 == 0
-        puts "Buzz"
+        return "Buzz"
     elsif num % 3 == 0 
-        puts "Fizz"
+        return "Fizz"
     else
-        puts num.to_s
+        return num.to_s
     end
  end
 #メソッド呼び出し
